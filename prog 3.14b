@@ -1,0 +1,6 @@
+import math
+n=int(input())
+x=(n-1)//(6*9)+1
+k=6*9-(x*6*9-n)
+g=(k+1)//6+1
+print(g)
