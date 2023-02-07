@@ -1,0 +1,5 @@
+import math
+print("Input x, y")
+x, y=map(float, input() .split())
+sr=(math.sqrt(x*y))**2
+print("среднее геометрическое=",sr,sep="")
