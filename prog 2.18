@@ -1,0 +1,6 @@
+import math
+print("Input x,y")
+x, y=map(float, input() .split())
+z= (x+((2+y)/(x)**2))/y+(1/math.sqrt(x**2+10))
+p= 7.25*math.sin(x)-y
+print("z= ",z,"q=",p,sep="")
