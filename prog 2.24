@@ -1,0 +1,8 @@
+import math
+print("Input a,b")
+a,b=map(float, input() .split())
+summ=a+b
+razn=a-b
+umnoz=a*b
+delen=a/b
+print ("Сумма=",summ,"Разность=",razn,"Произведение=",umnoz, "Деление=",delen)
