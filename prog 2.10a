@@ -1,0 +1,5 @@
+import math
+print("Input x, y")
+x, y=map(float, input() .split())
+sr=(x+y)/2
+print("среднее арифметическое=",sr,sep="")
