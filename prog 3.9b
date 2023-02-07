@@ -1,0 +1,4 @@
+import math
+a=int(input())
+m=(a%3600)/60
+print(m)
