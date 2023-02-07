@@ -1,0 +1,8 @@
+import math
+print("Input e,f,g,h")
+e,f,g,h=map(float, input() .split())
+a=(e+f/2)/3
+b=abs(h**2-g)
+c=(g-h)**2-3*math.sin(e)
+c=math.sqrt(c)
+print("a=",a,"b=",b,"c=",c)
