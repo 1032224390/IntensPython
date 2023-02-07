@@ -1,0 +1,6 @@
+import math 
+d=int(input()) 
+d>99 
+D=(d%100)//10 
+S=d%100 
+print(D,S) 
