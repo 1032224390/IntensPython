@@ -1,0 +1,5 @@
+import math
+print("Input S,V1,V2")
+S,V1,V2=map(float, input() .split())
+T=S/(V1+V2)
+print("время=",T)
