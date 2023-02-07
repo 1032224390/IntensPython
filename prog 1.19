@@ -1,0 +1,6 @@
+import math
+d=float(input("Высота(в метрах): "))
+v=0
+a=9.8
+V=math.sqrt(v**2+2*a*d)
+print(V)
