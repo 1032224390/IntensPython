@@ -1,0 +1,7 @@
+import math
+print("Input x, y,z")
+x,y,z=map(int, input() .split())
+A=max(x,y,z)
+B=min(x,y,z)
+C=(x+y+z)-(max(x,y,z)+min(x,y,z))
+print(B,C,A)
