@@ -1,0 +1,7 @@
+import math
+print("Input a, b")
+a,b=map(float, input() .split())
+f=a*2+b*2
+f=math.sqrt(f)
+P=a+b+f
+print("Периметр= ",P,sep="")
