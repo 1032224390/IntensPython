@@ -1,0 +1,6 @@
+import math
+print("Input a,b")
+a,b=map(float, input() .split())
+P=2*(a+b)
+d=math.sqrt(a**2+b**2)
+print("Периметр=",P,"Длина диагонали=",d)
