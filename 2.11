@@ -1,0 +1,5 @@
+import math
+print("Input V, m")
+V, m=map(float, input() .split())
+q = V*m
+print("Плотность материала= ",q,sep="")
