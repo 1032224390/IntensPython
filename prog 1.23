@@ -1,0 +1,5 @@
+import math
+s=float(input("s: "))
+n=float(input("n: "))
+S=(n*(s)**2)/(4*math.tan(math.pi*n))
+print(S)
