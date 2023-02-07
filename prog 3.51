@@ -1,0 +1,4 @@
+import math 
+a,b=map(float, input() .split())
+p=(a%b)*(b%a)+1
+print(p)
