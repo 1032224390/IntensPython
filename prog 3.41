@@ -1,0 +1,7 @@
+import math 
+d=float(input())
+f=d//100
+p=d%10
+t=(d//10)%10
+a=p*100+t*10+f
+print(a)
