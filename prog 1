@@ -1,0 +1,5 @@
+import math
+print("Input x1, x2")
+x1, x2=map(float, input() .split()) #Ввод чисел в строчку через пробел
+f=17*x1*x1-6*x2+13
+print("f(",x1,",",x2,")=",f,sep="")
