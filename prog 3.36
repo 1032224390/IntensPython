@@ -1,0 +1,7 @@
+import math 
+d=456
+f=d//100
+p=d%10
+t=d%100//10
+a=p+f*10+t*100
+print(a)
