@@ -1,0 +1,7 @@
+import math
+d=float(input("промежуток(в днях): "))
+ch=float(input("промежуток(в часах): "))
+m=float(input("промежуток(в минутах): "))
+s=float(input("промежуток(в секундах): "))
+summ=s+60*m+3600*ch+3600*24*ch
+print(summ)
