@@ -1,0 +1,11 @@
+import math
+print("Input x")
+x=float(input())
+f=1+x
+f=math.sqrt(f)
+o= 3.2+f
+l=5*x
+t=o/l
+p=math.sin(t)
+
+print("Ответ =",t,sep="")
