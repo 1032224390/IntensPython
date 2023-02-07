@@ -1,0 +1,6 @@
+import math
+print("Input a,b")
+a,b=map(float, input() .split())
+sr1=math.fabs((a+b)/2)
+sr2=math.fabs(a*b)
+print("a=",sr1,"b=",sr2)
