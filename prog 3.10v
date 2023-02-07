@@ -1,0 +1,4 @@
+import math
+a=int(input())
+pn=(a+1)%8
+print(pn)
