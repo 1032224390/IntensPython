@@ -1,0 +1,7 @@
+import math 
+d=int(input()) 
+a=d//1000 
+b=(d%1000)//100 
+c=(d%100)//10 
+t=d%10 
+print(c,t,a,b,sep="")
