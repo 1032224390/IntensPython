@@ -1,0 +1,7 @@
+import math
+s=float(input("промежуток(в секундах): "))
+s=s%60
+m=s/60
+ch=s/60/60
+d=24/ch/3600
+print(d, ch,m, s)
