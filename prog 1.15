@@ -1,0 +1,6 @@
+import math
+a=float(input("расстояние в  футах: "))
+dm=a/12
+ya=a/0.33
+mil=a/12000.02
+print(dm,ya,mil)
