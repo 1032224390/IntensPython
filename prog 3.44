@@ -1,0 +1,8 @@
+import math 
+A1=int(input("a3="))
+A2=int(input("a2="))
+A3=int(input("a1="))
+B1=int(input("b2="))
+B2=int(input("b1="))
+AB=(100*A1+10*A2+A3)+(10*B1+B2)
+print(AB)
