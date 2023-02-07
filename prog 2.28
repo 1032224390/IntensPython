@@ -1,0 +1,5 @@
+import math
+print("Input a,b,u")
+a,b,u=map(float, input() .split())
+S=1/2*(b**2-a**2)*math.tan(u)
+print("Площадь=",S)
