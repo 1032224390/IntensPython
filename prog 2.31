@@ -1,0 +1,5 @@
+import math
+print("Input a1,a2,a3,x,y,z")
+a1,a2,a3,x,y,z=map(float, input() .split())
+A=(a1*x)+(a2*y)+(a3*z)
+print("Стоимость=",A)
