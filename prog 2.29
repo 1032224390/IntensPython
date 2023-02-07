@@ -1,0 +1,9 @@
+import math
+print("Input x1,y1,x2,y2,x3,y3")
+x1,y1,x2,y2,x3,y3=map(float, input() .split())
+AB=math.sqrt((x1-y2)**2+(y1-y2)**2)
+AC=math.sqrt((x1-x3)**2+(y1-y3)**2)
+BC=math.sqrt((x2-x3)**2+(y2-y3)**2)
+P=AB+AC+BC
+S=math.sqrt(P*(P-AB)*(P-BC)*(P-AC))
+print("Периметр=", P, "Площадь=",S)
