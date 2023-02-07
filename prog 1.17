@@ -1,0 +1,6 @@
+import math
+m=float(input("Масса воды: "))
+r=float(input("Разница температур: "))
+C=4.186
+q=m*C*r
+print(q)
