@@ -1,0 +1,6 @@
+import math
+r=float(input("Радиус цилиндра: "))
+h=float(input("Высота цилиндра: "))
+S=math.pi*r**2
+V=(S*h)
+print(round(V,1))
