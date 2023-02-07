@@ -1,0 +1,7 @@
+import math
+print("Input x,y")
+x,y=map(float, input() .split())
+C=(x+y)/2
+O1=C-x
+O2=C-y
+print("СР ЗНАЧ=",C,"ОТЛИЧИЕ=",O1,O2)
