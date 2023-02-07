@@ -1,0 +1,8 @@
+import math
+P=float(input("P: "))
+V=float(input("V: "))
+T=float(input("T: "))
+R=8.314
+T=T*1.8+32
+n=(P*V)/(R*T)
+print(n)
