@@ -1,0 +1,4 @@
+import math
+a=int(input())
+ch=a//3600
+print(ch)
