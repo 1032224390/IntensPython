@@ -1,0 +1,7 @@
+import math 
+d=int(input())
+d=564
+f=d//10
+p=d%10 
+a=p*100+f
+print(a)
