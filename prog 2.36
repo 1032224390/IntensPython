@@ -1,0 +1,6 @@
+import math
+print("Input TC")
+TC=float(input())
+TF=TC*1.8+32
+TK=TC+273.15
+print("Фаренгейт=",TF,"Кельвин=",TK)
