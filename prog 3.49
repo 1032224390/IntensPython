@@ -1,0 +1,5 @@
+import math 
+a=int(input("a="))
+h,m=divmod(a,30)
+m *= 12
+print(f"{h} часа {m} минут")
