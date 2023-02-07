@@ -1,0 +1,7 @@
+import math 
+a=int(input("a="))
+time=a*120
+q=time/3600
+m=a%3600/60
+s=a%3600%60
+print(q,m,s)
