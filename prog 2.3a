@@ -1,0 +1,8 @@
+import math
+print("Input a")
+a=float(input())
+p=2*a+math.sin(abs(3*a))
+h=3.56
+f=p/h
+f=math.sqrt(f)
+print("Ответ =",f,sep="")
