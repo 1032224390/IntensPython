@@ -1,0 +1,6 @@
+import math
+d=float(input())
+a=d//10
+b=d%10
+c=a+b
+print(c)
