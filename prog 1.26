@@ -1,0 +1,3 @@
+import time
+p=time.asctime()
+print(p)
