@@ -1,0 +1,6 @@
+import math
+a=float(input("Количество футов в росте: "))
+b=float(input("Количество дюймов в росте: "))
+sm1=a/30.48
+sm2=a/2.54
+print(sm1,sm2)
