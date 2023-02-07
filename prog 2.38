@@ -1,0 +1,9 @@
+import math
+print("Input a,b")
+a,b=map(float, input() .split())
+s=a+b
+r=a-b
+p=a*b
+c=a/b
+ar=(a+b)/2
+print("сумма",s,"разность=",r,"произведение=",p,"частное=",c,"ср. ариф=",ar)
