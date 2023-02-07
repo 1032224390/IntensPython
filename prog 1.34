@@ -1,0 +1,7 @@
+import math
+x=float(input("Количество буханок: "))
+h=3.49
+sk=0.6
+hsk=h-h*0.6
+o=x*hsk
+print(round(h,2),round(hsk,2),round(o,2))
