@@ -1,0 +1,8 @@
+import math
+a= int(input("a: "))
+b= int(input("b:"))
+c= int(input("c: "))
+if b**2-4*a*c>=0:
+    print("уравнение имеет корни")
+else:
+    print("уравнение не имеет корни")
