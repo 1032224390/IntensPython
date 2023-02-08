@@ -1,0 +1,7 @@
+m = int(input('Введите m: '))
+n = int(input('Введите n: '))
+d, r = divmod(m, n)
+if r:
+    print('не делится')
+else:
+    print(d)
