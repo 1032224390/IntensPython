@@ -1,0 +1,7 @@
+import math
+s= int(input('Введите площадь круга: '))
+k= int(input('Введите площадь квадрата: '))
+if 2*s>=math.pi*k:
+    print("Поместится")
+else:
+    print("Не поместится")
