@@ -1,0 +1,5 @@
+x = int(input("x="))
+if x <2:
+    print(y:=x+1)
+else:
+    print(y:=2)
