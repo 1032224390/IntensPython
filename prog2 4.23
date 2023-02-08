@@ -1,0 +1,6 @@
+a = int(input('a: '))
+b = int(input('b: '))
+if b%a==0:
+    print('yes')
+else:
+    print('no')
