@@ -1,0 +1,8 @@
+import math
+a= int(input("a: "))
+r= int(input("r: "))
+ 
+if math.sqrt(a)>math.pi*math.sqrt(r):
+    print("У квадрата")
+else:
+    print("У круга")
