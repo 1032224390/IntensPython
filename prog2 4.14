@@ -1,0 +1,9 @@
+import math
+u1= int(input("u1: "))
+r1= int(input("r1: "))
+u2= int(input("u2: "))
+r2= int(input("r2: "))
+if u1/r1 < u2/r2:
+    print("первый")
+else:
+    print("второй")
